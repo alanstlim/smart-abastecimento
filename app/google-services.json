@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "266277391398",
+    "firebase_url": "https://smart-abastecimento.firebaseio.com",
+    "project_id": "smart-abastecimento",
+    "storage_bucket": "smart-abastecimento.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266277391398:android:ac2a0c73e97ba64bb0eae7",
+        "android_client_info": {
+          "package_name": "com.example.smartabastecimento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266277391398-oojdkpqpojs3cuafhebo1t0hfnfehl4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartabastecimento",
+            "certificate_hash": "969ff3512db943f87163f3f0d3049141182f4325"
+          }
+        },
+        {
+          "client_id": "266277391398-1m721abj3hs9bl1jv1h83i817mqeouu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRHo0aQ8j44neIRyV5iuFF0BvmxsZB1Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266277391398-1m721abj3hs9bl1jv1h83i817mqeouu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

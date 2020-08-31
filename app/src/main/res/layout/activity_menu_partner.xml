@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context=".activity.menuprofile.MenuPartnerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="2dp">
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_arrow" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/fredoka_one"
+            android:gravity="center"
+            android:text="@string/partner"
+            android:textColor="@color/colorBlackLight"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="164dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorBackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee"
+                android:gravity="center"
+                android:text="@string/name_station_menu"
+                android:textColor="@color/colorBlack" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackground">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editStationName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center"
+                    android:hint="@string/name_station_menu"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorBlackLight" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="4dp"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center"
+                    android:text="@string/address_menu"
+                    android:textColor="@color/colorBlack" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBackground"
+                    android:hapticFeedbackEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="center"
+                        android:hint="@string/address_menu"
+                        android:singleLine="false"
+                        android:textColor="@color/colorBlack"
+                        android:textColorHint="@color/colorBlackLight" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="center"
+                        android:hint="@string/numero"
+                        android:inputType="number"
+                        android:textColor="@color/colorBlack"
+                        android:textColorHint="@color/colorBlackLight" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/editCep"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="center"
+                        android:hint="@string/cep"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/colorBlack"
+                        android:textColorHint="@color/colorBlackLight" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/background_edittextred"
+                    android:contentDescription="@string/gasoline"
+                    android:src="@drawable/img_gasoline" />
+
+                <EditText
+                    android:id="@+id/editPriceGasoline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:autoText="false"
+                    android:background="@drawable/background_edittextblack"
+                    android:ems="10"
+                    android:fitsSystemWindows="false"
+                    android:fontFamily="@font/bungee"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:hint="@string/hint_45"
+                    android:includeFontPadding="false"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="#58FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/backgrond_edittextgreen"
+                    android:contentDescription="@string/ethanol"
+                    android:src="@drawable/img_ethanol" />
+
+                <EditText
+                    android:id="@+id/editPriceEthanol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_weight="1"
+                    android:autoText="false"
+                    android:background="@drawable/background_edittextblack"
+                    android:ems="10"
+                    android:fontFamily="@font/bungee"
+                    android:gravity="center"
+                    android:hint="@string/hint_35"
+                    android:includeFontPadding="false"
+                    android:inputType="number|numberDecimal"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="#58FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bungee"
+                    android:text="@string/franquia"
+                    android:textColor="@color/colorBlack" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroupFranchise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:addStatesFromChildren="false"
+                    android:background="@color/colorBackground"
+                    android:baselineAligned="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/radioAle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/ale"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioIpiranga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/ipiranga"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioPetrobras"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/petrobras"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioShell"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/shell"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioTexaco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/texaco"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioAnother"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="@string/outros"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="16sp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonRegisterStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="75dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_edittextyellow"
+                android:fontFamily="@font/bungee"
+                android:text="@string/register_menu" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
