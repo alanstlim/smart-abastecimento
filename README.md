@@ -54,4 +54,6 @@ Se você deseja testar diretamente no celular use o apk abaixo:
 
 [Gidle] (https://github.com/bumptech/glide)
 
+[RecyclerItemClick] (https://github.com/jamiltondamasceno/RecyclerItemClickListener)
+
 [Firebase] (https://firebase.google.com/?hl=pt)
