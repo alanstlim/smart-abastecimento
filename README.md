@@ -1,6 +1,6 @@
 # Smart Abastecimento
 
-<img src="https://github.com/alanstlim/smart-abastecimento/blob/master/Screens.png" alt="drawing" width="700"/>
+<img src="https://github.com/alanstlim/smart-abastecimento/blob/master/Screens1.png" alt="drawing" width="700"/>
 
 ## Sobre esse projeto
 * Primeiro projeto de estudo criado para por em prática os conhecimentos adquiridos.
